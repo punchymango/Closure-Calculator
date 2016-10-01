@@ -1,0 +1,62 @@
+/* Styles go here */
+
+.fixed {
+  width:80%;
+  margin:0 auto;
+}
+
+
+#output {
+  width: 285px;
+  max-height: 150px;
+  box-shadow: 4px 4px 9px;
+  font-size: 1.4em;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#output h4 {
+  visibility:hidden;
+}
+
+#buttonpad {
+  width: 210px;
+}
+
+.row {
+  margin: 7px 0 7px 0;
+  width:100%;
+}
+
+button {
+  width: 50px;
+  height: 45px;
+  margin: 2px;
+  background-color: aquamarine;
+  box-shadow: 4px 4px 8px;
+  border:none;
+  border-radius: 7px;
+  font-size: 1.4em;
+}
+
+button:hover {
+  background-color: skyblue;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+#memory {
+  position:relative;
+  float:left;
+  visibility:hidden;
+  left: 25px;
+  bottom: 75px;
+}
